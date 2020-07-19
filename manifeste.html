@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notre manifeste web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/lxf6bgi.css">
+	<link rel="stylesheet" href="https://use.typekit.net/lxf6bgi.css">
+	<script src="jquery-1.5.2.min.js"></script>
+    <script src="jquery-ui-1.8.9.min.js"></script>
+</head>
+<body>
+
+	<section class="apropos">
+		<article class="partievertee">
+		</article>
+
+		<article class="article2">
+			<div class="bianco"><img src="img/infos.png"><h1>À propos</h1><hr></div>
+			<h2>Il faut que les consciences, et les textes, <span>bougent</span> ...</h2>
+			<div class="textess" id="dragZone">
+				<div id="car1"><p class="biancoo"> 1. Nous sommes en crise. En  crise climatique.
+					Pourtant, cela n’a pas toujours été le cas. 
+					Sujet prenant de plus en plus d’ampleur aujourd'hui, que ce soit dans les médias, dans la vie courante, jusqu’à notre poubelle. 
+					Commençons par la définition du terme “manifeste”:
+					« Un manifeste est un ensemble d'affirmations, de déclarations, écrites et rendues publiques qui exposent un programme d'action ou décrivent une prise de position sur un sujet. »
+					Vous l’aurez compris, nous voulons porter un message en rapport  avec la crise climatique dans le domaine du web.
+					</p>
+				</div>
+
+				<div id="car2"><p class="biancoo">2. De là, une question est revenue plusieurs  fois :
+					est-ce que nos usages numériques sont-ils en cohérence avec notre prise de conscience climatique ? 
+					Pour  répondre à cela, il fallait que nous étudiions les principales causes du réchauffement climatiques et quelles étaient celles liées à l’ère numérique.
+					En faisant nos recherches, nous nous sommes aperçues qu’il existait une communauté dénommée “climato-sceptique”. 
+					Peu visible sur les réseaux sociaux, les stands talk, ou encore les médias, il nous a semblé intéressant de prendre ce parti si peu connu tout en prenant un ton absurde.
+					</p>	
+				</div>
+
+				<div id="car3"><p class="biancoo">3. Qui sont les climato-sceptiques ?  
+					Le  terme climato-sceptique désigne une personne qui ne croit pas vraiment au réchauffement climatique ou à l'incidence de l'activité humaine sur celui-ci. Généralement, les climato-sceptiques considèrent que le réchauffement climatique est cyclique et qu'il est tout à fait normal.
+					Si le terme a été créé, c’est qu’il y a quand même une communauté assez grande pour être identifiée. Pourtant, que ce soit sur les réseaux sociaux ou dans les reportages, ils sont pratiquement absents alors qu’ils représentent, en France seulement, 35% de la population !
+					</p>
+				</div>
+
+				<div id="car4"><p class="biancoo">4. Un ton absurde ?
+					Aujourd’hui, les climato-sceptiques n’existent plus. Les personnes se considérant comme étant “climato-sceptiques” ne sont en réalité, que de simples négationistes.
+					Raison pour laquelle nous avons décidé de prendre un ton absurde dans notre manifeste.
+
+					Le but de notre manifeste n’est pas de recenser toutes les informations nécessaires à l’utilisateur, nous voulons  éveiller sa curiosité par rapport à nos propos que nous présentons  pour qu’il s'intéresse au sujet. 
+					</p>
+				</div>
+			</div>
+				<script>
+			        $(document).ready(function() {
+			  		var a = 3;
+			  		$('#car1,#car2,#car3,#car4').draggable({
+			    		start: function(event, ui) {
+			      	$(this).css("z-index", a++);
+			    	}
+		  		});
+			  	});
+			  	</script>
+
+
+			
+		</article>
+
+		<article class="partieverte">
+		</article>
+	</section>
+
+
+
+<!-- Footer + liens -->
+<footer>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="manifeste.html">À propos</a></li>
+			<li><a href="sources.html">Sources</a></li>
+		</ul>
+	</nav>
+</footer>
+
+</body>
+</html>
