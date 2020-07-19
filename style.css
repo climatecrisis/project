@@ -909,7 +909,6 @@ audio{
 
 
 
-
 .partieverte{
 	width: 5%;
 	height: 85vh;
@@ -1000,7 +999,7 @@ hr{
 }
 
 
-#car1{
+#car1, #carr1{
 	width: 30%;
 	height: 30%;
  	position: absolute;
@@ -1010,7 +1009,11 @@ hr{
   	text-align: left;
 }
 
-#car2{
+#carr1{
+	margin-top: 15%;
+}
+
+#car2, #carr2{
 	width: 30%;
 	height: 25%;
  	position: absolute;
@@ -1020,7 +1023,7 @@ hr{
   	text-align: left;
 }
 
-#car3{
+#car3, #carr3{
 	width: 30%;
 	height: 25%;
  	position: absolute;
@@ -1031,7 +1034,7 @@ hr{
   	text-align: left;
 }
 
-#car4{
+#car4, #carr4{
 	width: 30%;
 	height: 25%;
  	position: absolute;
@@ -1041,13 +1044,40 @@ hr{
   	text-align: left;
 }
 
+#carr5{
+	width: 30%;
+	height: 25%;
+ 	position: absolute;
+  	z-index: 0;
+  	left: 46%;
+  	margin-top: 30%;
+  	text-align: left;
+  	color: black;
+}
 
+.bas{
+	margin-top: 5%;
+}
 
+#carr5 a{
+	color: black;
+}
 
+#carr4 a{
+	color: black;
+}
 
+#carr3 a{
+	color: black;
+}
 
+#carr2 a{
+	color: black;
+}
 
-
+#carr1 a{
+	color: black;
+}
 
 
 
