@@ -910,6 +910,144 @@ audio{
 
 
 
+.partieverte{
+	width: 5%;
+	height: 85vh;
+	background-color: #30b564;
+	border: 1px black solid; 
+	margin-left: 92%;
+	margin-top: -10%;
+}
+
+.partievertee{
+	width: 5%;
+	height: 85vh;
+	background-color: #30b564;
+	border: 1px black solid; 
+	float: left;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+footer{
+	clear: all;
+}
+
+.apropos{
+	height: 100vh;
+	width: 100%;
+}
+
+.bianco{
+	width: 20%;
+	background-color: white;
+	border: 1px black solid;
+	padding: 30px;
+	float: left;
+	margin-left: 7%;
+	margin-top: 3%;
+}
+
+.bianco h1{
+	font-family: roc grotesk, sans-serif;
+	font-weight: 700; 
+	font-size: 20px;
+	width: 100px;
+	color: #30B564;
+}
+
+hr{
+	width: 180px;
+	border: 1px black solid;
+	margin-left: 5%;
+}
+
+.apropos h2{
+	font-family: hatch, sans-serif;
+	font-weight: 500; 
+	padding-top: 10%;
+	margin-right: 47%;
+	font-size: 17px;
+}
+
+.biancoo{
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	border: 1px black solid;
+	font-family: hatch, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.biancoo:first-letter{
+  	font-family: roc grotesk, sans-serif;
+  	font-weight: 700;
+  	font-size : 55px;
+  	color : #30B564;
+  	padding:1px 2px 2px 0;
+ 	margin-right:5px;
+  	float : left;
+}
+
+.article2 div{
+	width: 90%;
+}
+.article2 .bianco{
+	width: 20%;
+}
+
+
+#car1{
+	width: 30%;
+	height: 30%;
+ 	position: absolute;
+  	z-index: 0;
+  	left: 18%;
+  	margin-top: 10%;
+  	text-align: left;
+}
+
+#car2{
+	width: 30%;
+	height: 25%;
+ 	position: absolute;
+  	z-index: 0;
+  	left: 15%;
+  	margin-top: 25%;
+  	text-align: left;
+}
+
+#car3{
+	width: 30%;
+	height: 25%;
+ 	position: absolute;
+  	z-index: 0;
+  	left: 40%;
+  	margin-top: 7%;
+  	margin-left: 12%;
+  	text-align: left;
+}
+
+#car4{
+	width: 30%;
+	height: 25%;
+ 	position: absolute;
+  	z-index: 0;
+  	left: 56%;
+  	margin-top: 20%;
+  	text-align: left;
+}
+
+
+
+
+
+
+
+
 
 
 
